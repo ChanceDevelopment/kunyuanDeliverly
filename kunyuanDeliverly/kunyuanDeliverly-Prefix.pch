@@ -1,0 +1,56 @@
+//
+//  kunyuanDeliverly-Prefix.pch
+//  kunyuanDeliverly
+//
+//  Created by Tony on 16/6/21.
+//  Copyright © 2016年 iMac. All rights reserved.
+//
+
+#ifndef kunyuanDeliverly_Prefix_pch
+#define kunyuanDeliverly_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+/****************导入的头文件******************/
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "kunyuangDefine.h"
+#import "Tool.h"
+#import "User.h"
+#import "UIViewController+HUD.h"
+#import "appAPIDefine.h"
+#import "JSONKit.h"
+#import "AFHTTPRequestOperation.h"
+#import "HeSysbsModel.h"
+#import "CustomNavigationController.h"
+#import "UIResponder+Router.h"
+#import "HeBaseViewController.h"
+#import "UIViewController+DismissKeyboard.h"
+#import "NSString+Valid.h"
+#import "IQKeyboardManager.h"
+#import "HeTabBarVC.h"
+#import "AFHttpTool.h"
+#import "HeSysbsModel.h"
+#import "Waiting.h"
+#import "QNUploadManager.h"
+#import "UIImageView+AFNetworking.h"
+#import "QNUploadOption.h"
+#import "HeConvertToCommonEmoticonsHelper.h"
+#import "UIImageView+WebCache.h"
+#import "HeBaseAlbumItem.h"
+#import "MLLinkLabel.h"
+
+#endif
+
+
+#ifdef DEBUG
+#    define DLog(...) NSLog(__VA_ARGS__)
+#else
+#    define DLog(...) /* */
+#endif
+#define ALog(...) NSLog(__VA_ARGS__)
+
+#endif /* kunyuanDeliverly_Prefix_pch */
