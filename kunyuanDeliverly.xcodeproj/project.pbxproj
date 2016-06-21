@@ -504,6 +504,17 @@
 		EA89188D1D18E53C0018773C /* loading_anim1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8918891D18E53C0018773C /* loading_anim1.png */; };
 		EA89188E1D18E53C0018773C /* loading_anim2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA89188A1D18E53C0018773C /* loading_anim2.png */; };
 		EA89188F1D18E53C0018773C /* Waiting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA89188C1D18E53C0018773C /* Waiting.m */; };
+		EAE6B50A1D191D28000DE707 /* tabbar_normal_background.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B5081D191D28000DE707 /* tabbar_normal_background.png */; };
+		EAE6B50B1D191D28000DE707 /* tabbar_normal_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B5091D191D28000DE707 /* tabbar_normal_background@2x.png */; };
+		EAE6B5131D191D37000DE707 /* comonDefaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B50C1D191D37000DE707 /* comonDefaultImage.png */; };
+		EAE6B5141D191D37000DE707 /* icon-qq.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B50D1D191D37000DE707 /* icon-qq.png */; };
+		EAE6B5151D191D37000DE707 /* icon-weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B50E1D191D37000DE707 /* icon-weibo.png */; };
+		EAE6B5161D191D37000DE707 /* icon-weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B50F1D191D37000DE707 /* icon-weixin.png */; };
+		EAE6B5171D191D37000DE707 /* NavBarIOS7_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B5101D191D37000DE707 /* NavBarIOS7_white.png */; };
+		EAE6B5181D191D37000DE707 /* NavBarIOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B5111D191D37000DE707 /* NavBarIOS7.png */; };
+		EAE6B5191D191D37000DE707 /* navigationBar_back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B5121D191D37000DE707 /* navigationBar_back_icon.png */; };
+		EAE6B51E1D191D91000DE707 /* user_placeholder_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B51D1D191D91000DE707 /* user_placeholder_icon.png */; };
+		EAE6B5261D19256B000DE707 /* HeInstructionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B5251D19256B000DE707 /* HeInstructionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1468,6 +1479,18 @@
 		EA89188A1D18E53C0018773C /* loading_anim2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_anim2.png; sourceTree = "<group>"; };
 		EA89188B1D18E53C0018773C /* Waiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waiting.h; sourceTree = "<group>"; };
 		EA89188C1D18E53C0018773C /* Waiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waiting.m; sourceTree = "<group>"; };
+		EAE6B5081D191D28000DE707 /* tabbar_normal_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_normal_background.png; sourceTree = "<group>"; };
+		EAE6B5091D191D28000DE707 /* tabbar_normal_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_normal_background@2x.png"; sourceTree = "<group>"; };
+		EAE6B50C1D191D37000DE707 /* comonDefaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comonDefaultImage.png; sourceTree = "<group>"; };
+		EAE6B50D1D191D37000DE707 /* icon-qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-qq.png"; sourceTree = "<group>"; };
+		EAE6B50E1D191D37000DE707 /* icon-weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-weibo.png"; sourceTree = "<group>"; };
+		EAE6B50F1D191D37000DE707 /* icon-weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-weixin.png"; sourceTree = "<group>"; };
+		EAE6B5101D191D37000DE707 /* NavBarIOS7_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarIOS7_white.png; sourceTree = "<group>"; };
+		EAE6B5111D191D37000DE707 /* NavBarIOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarIOS7.png; sourceTree = "<group>"; };
+		EAE6B5121D191D37000DE707 /* navigationBar_back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBar_back_icon.png; sourceTree = "<group>"; };
+		EAE6B51D1D191D91000DE707 /* user_placeholder_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_placeholder_icon.png; sourceTree = "<group>"; };
+		EAE6B5241D19256B000DE707 /* HeInstructionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeInstructionView.h; sourceTree = "<group>"; };
+		EAE6B5251D19256B000DE707 /* HeInstructionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeInstructionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1560,6 +1583,7 @@
 		EA8912601D18E0430018773C /* kunyuanDeliverly */ = {
 			isa = PBXGroup;
 			children = (
+				EAE6B4EF1D191BDF000DE707 /* Resource */,
 				EA8918871D18E53C0018773C /* Waiting */,
 				EA8917621D18E4B10018773C /* Model */,
 				EA8917751D18E4B10018773C /* ThirdPartySDK */,
@@ -2950,6 +2974,7 @@
 		EA8917261D18E4980018773C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EAE6B5231D19255F000DE707 /* HeInstructionView */,
 				EA8918901D18E55C0018773C /* Login */,
 				EA8917271D18E4980018773C /* Base */,
 				EA8917361D18E4980018773C /* RDVTabBarController */,
@@ -3462,6 +3487,56 @@
 			name = BseCell;
 			sourceTree = "<group>";
 		};
+		EAE6B4EF1D191BDF000DE707 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B51C1D191D86000DE707 /* User */,
+				EAE6B5071D191C75000DE707 /* TabbarIcon */,
+				EAE6B5061D191C72000DE707 /* Custom */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EAE6B5061D191C72000DE707 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B50C1D191D37000DE707 /* comonDefaultImage.png */,
+				EAE6B50D1D191D37000DE707 /* icon-qq.png */,
+				EAE6B50E1D191D37000DE707 /* icon-weibo.png */,
+				EAE6B50F1D191D37000DE707 /* icon-weixin.png */,
+				EAE6B5101D191D37000DE707 /* NavBarIOS7_white.png */,
+				EAE6B5111D191D37000DE707 /* NavBarIOS7.png */,
+				EAE6B5121D191D37000DE707 /* navigationBar_back_icon.png */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		EAE6B5071D191C75000DE707 /* TabbarIcon */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B5081D191D28000DE707 /* tabbar_normal_background.png */,
+				EAE6B5091D191D28000DE707 /* tabbar_normal_background@2x.png */,
+			);
+			name = TabbarIcon;
+			sourceTree = "<group>";
+		};
+		EAE6B51C1D191D86000DE707 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B51D1D191D91000DE707 /* user_placeholder_icon.png */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		EAE6B5231D19255F000DE707 /* HeInstructionView */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B5241D19256B000DE707 /* HeInstructionView.h */,
+				EAE6B5251D19256B000DE707 /* HeInstructionView.m */,
+			);
+			name = HeInstructionView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3529,6 +3604,7 @@
 				TargetAttributes = {
 					EA89125D1D18E0430018773C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2HE3DDFLNU;
 					};
 					EA8912761D18E0430018773C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -3571,16 +3647,19 @@
 				EA89163A1D18E48F0018773C /* MJPhotoBrowser.bundle in Resources */,
 				EA8916101D18E48F0018773C /* i2KEPCMultiComponentPickerView.xib in Resources */,
 				EA89161B1D18E48F0018773C /* whiteArrow.png in Resources */,
+				EAE6B5141D191D37000DE707 /* icon-qq.png in Resources */,
 				EA8916661D18E48F0018773C /* arrow_down1@2x.png in Resources */,
 				EA8917041D18E48F0018773C /* FontAwesome.ttf in Resources */,
 				EA8916EF1D18E48F0018773C /* bg_023@2x.png in Resources */,
 				EA89187A1D18E4B20018773C /* zbar-back.png in Resources */,
+				EAE6B5151D191D37000DE707 /* icon-weibo.png in Resources */,
 				EA89187B1D18E4B20018773C /* zbar-help.html in Resources */,
 				EA8916F21D18E48F0018773C /* btn_020@2x.png in Resources */,
 				EA8916F01D18E48F0018773C /* btn_020.disable@2x.png in Resources */,
 				EA8918861D18E4B20018773C /* HeBaseTableViewCell.xib in Resources */,
 				EA8912711D18E0430018773C /* LaunchScreen.storyboard in Resources */,
 				EA8916F31D18E48F0018773C /* btn_021.disable@2x.png in Resources */,
+				EAE6B5171D191D37000DE707 /* NavBarIOS7_white.png in Resources */,
 				EA8915FE1D18E48F0018773C /* ClippedExpression.bundle in Resources */,
 				EA8915FC1D18E48F0018773C /* back-arrow@2x.png in Resources */,
 				EA8916E71D18E48F0018773C /* sr_refresh@2X.png in Resources */,
@@ -3605,6 +3684,7 @@
 				EA8915C11D18E48F0018773C /* LICENSE in Resources */,
 				EA8916E61D18E48F0018773C /* sr_refresh.png in Resources */,
 				EA8916031D18E48F0018773C /* refresh@3x.png in Resources */,
+				EAE6B51E1D191D91000DE707 /* user_placeholder_icon.png in Resources */,
 				EA89174D1D18E4980018773C /* HeFindPasswordVC.xib in Resources */,
 				EA8916261D18E48F0018773C /* IQActionSheetPickerView.xib in Resources */,
 				EA8915FF1D18E48F0018773C /* Expression.plist in Resources */,
@@ -3615,6 +3695,8 @@
 				EA89161D1D18E48F0018773C /* LICENSE.txt in Resources */,
 				EA8916611D18E48F0018773C /* LICENSE in Resources */,
 				EA89174F1D18E4980018773C /* HeLoginVC.xib in Resources */,
+				EAE6B5181D191D37000DE707 /* NavBarIOS7.png in Resources */,
+				EAE6B5161D191D37000DE707 /* icon-weixin.png in Resources */,
 				EA8916F51D18E48F0018773C /* btn_021@2x.png in Resources */,
 				EA8916361D18E48F0018773C /* MBProgressHUD.bundle in Resources */,
 				EA8916D41D18E48F0018773C /* sharemore_pic@2x.png in Resources */,
@@ -3623,6 +3705,8 @@
 				EA8916751D18E48F0018773C /* README.textile in Resources */,
 				EA8916F61D18E48F0018773C /* ProvincesAndCities.plist in Resources */,
 				EA8916051D18E48F0018773C /* success@3x.png in Resources */,
+				EAE6B5191D191D37000DE707 /* navigationBar_back_icon.png in Resources */,
+				EAE6B5131D191D37000DE707 /* comonDefaultImage.png in Resources */,
 				EA8917511D18E4980018773C /* HeTabBarVC.xib in Resources */,
 				EA8916411D18E48F0018773C /* LICENSE in Resources */,
 				EA8917491D18E4980018773C /* HeBaseViewController.xib in Resources */,
@@ -3638,9 +3722,11 @@
 				EA89126C1D18E0430018773C /* Main.storyboard in Resources */,
 				EA89161C1D18E48F0018773C /* whiteArrow@2x.png in Resources */,
 				EA8918721D18E4B20018773C /* WeiboSDK.bundle in Resources */,
+				EAE6B50A1D191D28000DE707 /* tabbar_normal_background.png in Resources */,
 				EA8916501D18E48F0018773C /* MJRefresh.bundle in Resources */,
 				EA8916161D18E48F0018773C /* blueArrow@2x.png in Resources */,
 				EA8916D51D18E48F0018773C /* sharemore_pic@3x.png in Resources */,
+				EAE6B50B1D191D28000DE707 /* tabbar_normal_background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3815,6 +3901,7 @@
 				EA8916AC1D18E48F0018773C /* RACSequence.m in Sources */,
 				EA8916991D18E48F0018773C /* RACEagerSequence.m in Sources */,
 				EA8915F61D18E48F0018773C /* RRDevice.m in Sources */,
+				EAE6B5261D19256B000DE707 /* HeInstructionView.m in Sources */,
 				EA8916941D18E48F0018773C /* RACCompoundDisposableProvider.d in Sources */,
 				EA8918491D18E4B20018773C /* GTM_Base64.m in Sources */,
 				EA8916291D18E48F0018773C /* IQSegmentedNextPrevious.m in Sources */,
@@ -4183,6 +4270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4214,6 +4302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4306,6 +4395,7 @@
 				EA89128D1D18E0430018773C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA89128E1D18E0430018773C /* Build configuration list for PBXNativeTarget "kunyuanDeliverlyTests" */ = {
 			isa = XCConfigurationList;
@@ -4314,6 +4404,7 @@
 				EA8912901D18E0430018773C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA8912911D18E0430018773C /* Build configuration list for PBXNativeTarget "kunyuanDeliverlyUITests" */ = {
 			isa = XCConfigurationList;
@@ -4322,6 +4413,7 @@
 				EA8912931D18E0430018773C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -44,8 +44,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
+	// Do any additional setup after loading the view.
+   
     
     self.view.backgroundColor = [UIColor whiteColor];
     myscrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGH)];
@@ -55,15 +55,15 @@
     
     [self.view addSubview:myscrollView];
     [self setupPage];
-    //    pageControl.tintColor = [UIColor redColor];
-    //    pageControl.backgroundColor = [UIColor redColor];
+//    pageControl.tintColor = [UIColor redColor];
+//    pageControl.backgroundColor = [UIColor redColor];
     [self.view addSubview:pageControl];
     
     
     pageControl.currentPageIndicatorTintColor = [UIColor redColor];
     
     pageControl.pageIndicatorTintColor = [UIColor grayColor];
-    
+
     
 }
 
@@ -82,7 +82,7 @@
         [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
     }
     [self hideHud];
-    //    self.loadSucceedFlag = 1;
+//    self.loadSucceedFlag = 1;
 }
 -(void)viewDidDisappear:(BOOL)animated
 {
