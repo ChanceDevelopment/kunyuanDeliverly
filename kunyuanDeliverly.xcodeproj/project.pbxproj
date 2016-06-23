@@ -3604,7 +3604,12 @@
 				TargetAttributes = {
 					EA89125D1D18E0430018773C = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 2HE3DDFLNU;
+						DevelopmentTeam = E6CUH72B23;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					EA8912761D18E0430018773C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -4221,7 +4226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -4259,7 +4264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -4270,7 +4275,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jun zhou (ZM3AW8VQ6N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jun zhou (ZM3AW8VQ6N)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4293,8 +4299,9 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.danertu.kunyuanDeliverly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverly;
 				PRODUCT_NAME = "坤元外卖配送端";
+				PROVISIONING_PROFILE = "53db6bbf-5cc9-4b81-9031-27039d42cf95";
 			};
 			name = Debug;
 		};
@@ -4303,6 +4310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4325,8 +4333,9 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.danertu.kunyuanDeliverly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverly;
 				PRODUCT_NAME = "坤元外卖配送端";
+				PROVISIONING_PROFILE = "31033183-96e9-4d77-9dd5-33343edfa13c";
 			};
 			name = Release;
 		};
@@ -4336,7 +4345,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = kunyuanDeliverlyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.danertu.kunyuanDeliverlyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverlyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kunyuanDeliverly.app/kunyuanDeliverly";
 			};
@@ -4348,7 +4357,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = kunyuanDeliverlyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.danertu.kunyuanDeliverlyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverlyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kunyuanDeliverly.app/kunyuanDeliverly";
 			};
@@ -4359,7 +4368,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = kunyuanDeliverlyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.danertu.kunyuanDeliverlyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverlyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = kunyuanDeliverly;
 			};
@@ -4370,11 +4379,106 @@
 			buildSettings = {
 				INFOPLIST_FILE = kunyuanDeliverlyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.danertu.kunyuanDeliverlyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverlyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = kunyuanDeliverly;
 			};
 			name = Release;
+		};
+		EAF245151D1C393C004FB405 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		EAF245161D1C393C004FB405 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kunyuanDeliverly/Custom/DFCommon/DFCommon/DFCommon/Lib/lame",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/Optional",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/Required",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/umsdk_IOS_analyics_no-idfa_v4.0.5",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/kunyuanDeliverly/kunyuanDeliverly-Prefix.pch";
+				INFOPLIST_FILE = kunyuanDeliverly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/JPush-iOS-SDK-2.1.7/lib",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/SinaWeiboSDK",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverly;
+				PRODUCT_NAME = "坤元外卖配送端";
+				PROVISIONING_PROFILE = "d46d1f54-f1f9-4c31-9be1-8ed391d8dd31";
+			};
+			name = Distribution;
+		};
+		EAF245171D1C393C004FB405 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kunyuanDeliverlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kunyuanDeliverly.app/kunyuanDeliverly";
+			};
+			name = Distribution;
+		};
+		EAF245181D1C393C004FB405 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kunyuanDeliverlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kunyuanDeliverly;
+			};
+			name = Distribution;
 		};
 /* End XCBuildConfiguration section */
 
@@ -4384,6 +4488,7 @@
 			buildConfigurations = (
 				EA8912891D18E0430018773C /* Debug */,
 				EA89128A1D18E0430018773C /* Release */,
+				EAF245151D1C393C004FB405 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4393,6 +4498,7 @@
 			buildConfigurations = (
 				EA89128C1D18E0430018773C /* Debug */,
 				EA89128D1D18E0430018773C /* Release */,
+				EAF245161D1C393C004FB405 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4402,6 +4508,7 @@
 			buildConfigurations = (
 				EA89128F1D18E0430018773C /* Debug */,
 				EA8912901D18E0430018773C /* Release */,
+				EAF245171D1C393C004FB405 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4411,6 +4518,7 @@
 			buildConfigurations = (
 				EA8912921D18E0430018773C /* Debug */,
 				EA8912931D18E0430018773C /* Release */,
+				EAF245181D1C393C004FB405 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
