@@ -43,7 +43,7 @@
 		EA8912CB1D18E44B0018773C /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8912CA1D18E44B0018773C /* libc++abi.tbd */; };
 		EA8912CD1D18E4520018773C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8912CC1D18E4520018773C /* OpenGLES.framework */; };
 		EA8912CF1D18E4590018773C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8912CE1D18E4590018773C /* SystemConfiguration.framework */; };
-		EA8912D11D18E4610018773C /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8912D01D18E4610018773C /* Contacts.framework */; };
+		EA8912D11D18E4610018773C /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8912D01D18E4610018773C /* Contacts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EA8915B71D18E48F0018773C /* AFHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8912D51D18E48D0018773C /* AFHttpTool.m */; };
 		EA8915B81D18E48F0018773C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8912D81D18E48D0018773C /* AFHTTPRequestOperation.m */; };
 		EA8915B91D18E48F0018773C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8912DA1D18E48D0018773C /* AFHTTPRequestOperationManager.m */; };
@@ -4299,9 +4299,9 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanDeliverly;
 				PRODUCT_NAME = "坤元配送";
-				PROVISIONING_PROFILE = "53db6bbf-5cc9-4b81-9031-27039d42cf95";
+				PROVISIONING_PROFILE = "67d5676d-5ba8-4a3f-9fb7-1bf3bfde9841";
 			};
 			name = Debug;
 		};
@@ -4309,8 +4309,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4333,9 +4333,9 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanDeliverly;
 				PRODUCT_NAME = "坤元配送";
-				PROVISIONING_PROFILE = "31033183-96e9-4d77-9dd5-33343edfa13c";
+				PROVISIONING_PROFILE = "83cd0a3c-93e5-4b8d-9386-812d005e2e66";
 			};
 			name = Release;
 		};
@@ -4427,8 +4427,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4451,9 +4451,9 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanDeliverly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanDeliverly;
 				PRODUCT_NAME = "坤元配送";
-				PROVISIONING_PROFILE = "d46d1f54-f1f9-4c31-9be1-8ed391d8dd31";
+				PROVISIONING_PROFILE = "f813230a-bd16-45b3-98bc-81de604783a0";
 			};
 			name = Distribution;
 		};
