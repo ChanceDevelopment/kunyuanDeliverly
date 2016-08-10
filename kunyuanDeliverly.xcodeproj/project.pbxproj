@@ -535,7 +535,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA89125E1D18E0430018773C /* 坤元配送.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "坤元配送.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA89125E1D18E0430018773C /* 猪美巴配送.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "猪美巴配送.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8912621D18E0430018773C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA8912641D18E0430018773C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA8912651D18E0430018773C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1573,7 +1573,7 @@
 		EA89125F1D18E0430018773C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA89125E1D18E0430018773C /* 坤元配送.app */,
+				EA89125E1D18E0430018773C /* 猪美巴配送.app */,
 				EA8912771D18E0430018773C /* kunyuanDeliverlyTests.xctest */,
 				EA8912821D18E0430018773C /* kunyuanDeliverlyUITests.xctest */,
 			);
@@ -3554,7 +3554,7 @@
 			);
 			name = kunyuanDeliverly;
 			productName = kunyuanDeliverly;
-			productReference = EA89125E1D18E0430018773C /* 坤元配送.app */;
+			productReference = EA89125E1D18E0430018773C /* 猪美巴配送.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EA8912761D18E0430018773C /* kunyuanDeliverlyTests */ = {
@@ -4300,7 +4300,7 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanDeliverly;
-				PRODUCT_NAME = "坤元配送";
+				PRODUCT_NAME = "猪美巴配送";
 				PROVISIONING_PROFILE = "67d5676d-5ba8-4a3f-9fb7-1bf3bfde9841";
 			};
 			name = Debug;
@@ -4334,7 +4334,7 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanDeliverly;
-				PRODUCT_NAME = "坤元配送";
+				PRODUCT_NAME = "猪美巴配送";
 				PROVISIONING_PROFILE = "83cd0a3c-93e5-4b8d-9386-812d005e2e66";
 			};
 			name = Release;
@@ -4452,7 +4452,7 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanDeliverly;
-				PRODUCT_NAME = "坤元配送";
+				PRODUCT_NAME = "猪美巴配送";
 				PROVISIONING_PROFILE = "f813230a-bd16-45b3-98bc-81de604783a0";
 			};
 			name = Distribution;
