@@ -98,7 +98,7 @@
 //活动的图标空位符号
 #define EMPTYSTRING @"     : "
 //默认绿色的RGB
-#define APPDEFAULTORANGE ([UIColor colorWithRed:51.0 / 255.0 green:185.0 / 255.0 blue:170.0 / 255.0 alpha:1.0])
+#define APPDEFAULTORANGE ([UIColor colorWithRed:53.0 / 255.0 green:145.0 / 255.0 blue:224.0 / 255.0 alpha:1.0])
 //默认标题颜色
 #define APPDEFAULTTITLECOLOR ([UIColor whiteColor])
 //默认标题的字体

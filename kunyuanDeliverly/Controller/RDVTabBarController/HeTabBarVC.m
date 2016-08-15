@@ -19,7 +19,9 @@
 @end
 
 @implementation HeTabBarVC
-
+@synthesize orderManagementVC;
+@synthesize balanceVC;
+@synthesize userVC;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -48,7 +50,7 @@
 //获取用户的信息
 - (void)getUserInfo
 {
-   
+    
     
 }
 
@@ -65,7 +67,18 @@
 //设置根控制器的四个子控制器
 - (void)setupSubviews
 {
+    orderManagementVC = [[HeOrderManagementVC alloc] init];
+    CustomNavigationController *orderManagementNav = [[CustomNavigationController alloc] initWithRootViewController:orderManagementVC];
     
+    
+    balanceVC = [[HeBalanceVC alloc] init];
+    CustomNavigationController *balanceNav = [[CustomNavigationController alloc] initWithRootViewController:balanceVC];
+    
+    userVC = [[HeUserVC alloc] init];
+    CustomNavigationController *userNav = [[CustomNavigationController alloc]
+                                           initWithRootViewController:userVC];
+    
+    [self setViewControllers:@[orderManagementNav,balanceNav,userNav]];
     [self customizeTabBarForController];
 }
 
@@ -74,7 +87,7 @@
     //    tabbar_normal_background   tabbar_selected_background
     UIImage *finishedImage = [UIImage imageNamed:@"tabbar_normal_background"];
     UIImage *unfinishedImage = [UIImage imageNamed:@"tabbar_normal_background"];
-    NSArray *tabBarItemImages = @[@"tabar_homepage_icon", @"tabar_community_icon", @"tabar_order_icon", @"tabar_user_icon"];
+    NSArray *tabBarItemImages = @[@"tabar_order_icon", @"tabar_balance_icon", @"tabar_user_icon"];
     
     NSInteger index = 0;
     for (RDVTabBarItem *item in [[self tabBar] items]) {
@@ -103,13 +116,13 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

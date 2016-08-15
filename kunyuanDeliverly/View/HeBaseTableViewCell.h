@@ -10,4 +10,6 @@
 
 @interface HeBaseTableViewCell : UITableViewCell
 
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier cellSize:(CGSize)cellsize;
+
 @end
