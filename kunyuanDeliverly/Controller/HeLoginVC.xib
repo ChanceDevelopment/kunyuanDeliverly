@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <development version="7000" identifier="xcode"/>
@@ -150,7 +150,7 @@
                         <action selector="loginMethod:" destination="-1" eventType="touchUpInside" id="QR2-VK-PJq"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObD-zS-cfS">
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObD-zS-cfS">
                     <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="105" id="Phi-FP-Dtn"/>
@@ -253,7 +253,7 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <state key="normal" title="找回密码">
-                        <color key="titleColor" red="0.20000000000000001" green="0.72549019607843135" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleColor" red="0.41568627450980389" green="0.65098039215686276" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                     <variation key="default">
                         <mask key="constraints">

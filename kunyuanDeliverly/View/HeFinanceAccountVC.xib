@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeFinanceAccountVC">
+            <connections>
+                <outlet property="tableview" destination="EXp-Kk-4b7" id="Fdo-3h-wfs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EXp-Kk-4b7">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vFP-zo-qE8"/>
+                        <outlet property="delegate" destination="-1" id="f3t-yw-txN"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="EXp-Kk-4b7" secondAttribute="bottom" id="8an-xV-vVJ">
+                    <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstAttribute="trailing" secondItem="EXp-Kk-4b7" secondAttribute="trailing" id="90L-Bx-Buy"/>
+                <constraint firstItem="EXp-Kk-4b7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Kd3-l4-mrL"/>
+                <constraint firstItem="EXp-Kk-4b7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="s7y-B1-6CA"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="EXp-Kk-4b7"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="8an-xV-vVJ"/>
+                    <exclude reference="90L-Bx-Buy"/>
+                    <exclude reference="Kd3-l4-mrL"/>
+                    <exclude reference="s7y-B1-6CA"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="EXp-Kk-4b7"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="8an-xV-vVJ"/>
+                    <include reference="90L-Bx-Buy"/>
+                    <include reference="Kd3-l4-mrL"/>
+                    <include reference="s7y-B1-6CA"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

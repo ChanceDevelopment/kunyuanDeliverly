@@ -35,7 +35,7 @@
         label.textColor = [UIColor whiteColor];
         label.textAlignment = NSTextAlignmentCenter;
         self.navigationItem.titleView = label;
-        label.text = @"坤元外卖";
+        label.text = @"登录";
         [label sizeToFit];
         self.title = @"登录";
     }
@@ -62,7 +62,7 @@
     enrollItem.tintColor = [UIColor whiteColor];
     enrollItem.target = self;
     enrollItem.action = @selector(enrollMethod:);
-    self.navigationItem.rightBarButtonItem = enrollItem;
+//    self.navigationItem.rightBarButtonItem = enrollItem;
     
     [loginButton dangerStyle];
     loginButton.layer.borderWidth = 0;

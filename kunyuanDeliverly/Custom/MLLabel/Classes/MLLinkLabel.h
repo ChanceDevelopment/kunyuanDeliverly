@@ -8,11 +8,11 @@
 
 #import "MLLabel.h"
 
-typedef NS_OPTIONS(NSUInteger, MLDataDetectorTypes) {
+typedef NS_OPTIONS(NSInteger, MLDataDetectorTypes) {
     MLDataDetectorTypeURL           = 1 << 1,          // 链接，不用link定义，是因为link作为统称
     MLDataDetectorTypePhoneNumber   = 1 << 0,          // 电话
     MLDataDetectorTypeNone          = 0,               // 禁用
-    MLDataDetectorTypeAll           = NSUIntegerMax,    // 所有
+    MLDataDetectorTypeAll           = NSIntegerMax,    // 所有
     //上面4个和UIDataDetectorTypes的对应，下面是自己加的
     
     MLDataDetectorTypeEmail         = 1 << 4,          // 邮箱

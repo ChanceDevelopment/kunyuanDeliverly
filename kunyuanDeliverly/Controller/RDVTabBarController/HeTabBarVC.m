@@ -10,9 +10,9 @@
 #import "RDVTabBarItem.h"
 #import "RDVTabBar.h"
 #import "RDVTabBarController.h"
-
 #import "HeSysbsModel.h"
 #import "UserAlbum.h"
+#import "HeFinanceAccountVC.h"
 
 @interface HeTabBarVC ()
 
@@ -71,7 +71,7 @@
     CustomNavigationController *orderManagementNav = [[CustomNavigationController alloc] initWithRootViewController:orderManagementVC];
     
     
-    balanceVC = [[HeBalanceVC alloc] init];
+    balanceVC = [[HeFinanceAccountVC alloc] init];
     CustomNavigationController *balanceNav = [[CustomNavigationController alloc] initWithRootViewController:balanceVC];
     
     userVC = [[HeUserVC alloc] init];

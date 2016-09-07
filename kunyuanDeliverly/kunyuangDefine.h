@@ -20,7 +20,7 @@
 #define IOS7OFFSET        64
 
 
-
+#define BAIDUMAPKEY @"Cm8SfWG8HcjFW1hxu8lfNUb3rFn1uZBe"
 //自己服务器的通信模块
 #define EASEMOBKEY @"godchance#aishangfuyang"
 //parse
