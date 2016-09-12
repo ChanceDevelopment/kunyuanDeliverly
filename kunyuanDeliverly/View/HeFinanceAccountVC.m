@@ -114,6 +114,18 @@
     }];
 }
 
+- (void)endRefreshing
+{
+    [self.tableview.footer endRefreshing];
+    self.tableview.footer.hidden = YES;
+    self.tableview.footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+        self.tableview.footer.automaticallyHidden = YES;
+        self.tableview.footer.hidden = NO;
+        // 进入刷新状态后会自动调用这个block，加载更多
+        [self performSelector:@selector(endRefreshing) withObject:nil afterDelay:1.0];
+    }];
+}
+
 - (void)buttonClick:(UIButton *)button
 {
     NSInteger tag = button.tag;
@@ -129,17 +141,7 @@
         [dateTimePickerView showHcdDateTimePicker];
     }
 }
-- (void)endRefreshing
-{
-    [self.tableview.footer endRefreshing];
-    self.tableview.footer.hidden = YES;
-    self.tableview.footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
-        self.tableview.footer.automaticallyHidden = YES;
-        self.tableview.footer.hidden = NO;
-        // 进入刷新状态后会自动调用这个block，加载更多
-        [self performSelector:@selector(endRefreshing) withObject:nil afterDelay:1.0];
-    }];
-}
+
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
