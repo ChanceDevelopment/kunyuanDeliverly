@@ -430,7 +430,6 @@
 		EA89183D1D18E4B10018773C /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8917701D18E4B10018773C /* PhotoModel.m */; };
 		EA89183E1D18E4B10018773C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8917721D18E4B10018773C /* User.m */; };
 		EA89183F1D18E4B10018773C /* UserAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8917741D18E4B10018773C /* UserAlbum.m */; };
-		EA8918401D18E4B10018773C /* jpush-ios-2.1.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8917781D18E4B10018773C /* jpush-ios-2.1.7.a */; };
 		EA8918411D18E4B20018773C /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = EA89177B1D18E4B10018773C /* bitstream.c */; };
 		EA8918421D18E4B20018773C /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = EA89177D1D18E4B10018773C /* mask.c */; };
 		EA8918431D18E4B20018773C /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8917801D18E4B10018773C /* QRCodeGenerator.m */; };
@@ -571,6 +570,8 @@
 		EAE6B5191D191D37000DE707 /* navigationBar_back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B5121D191D37000DE707 /* navigationBar_back_icon.png */; };
 		EAE6B51E1D191D91000DE707 /* user_placeholder_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B51D1D191D91000DE707 /* user_placeholder_icon.png */; };
 		EAE6B5261D19256B000DE707 /* HeInstructionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B5251D19256B000DE707 /* HeInstructionView.m */; };
+		EAFC136D1D9B700F005D00AB /* jpush-ios-2.1.9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC136B1D9B700F005D00AB /* jpush-ios-2.1.9.a */; };
+		EAFC137D1D9B728F005D00AB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC137C1D9B728F005D00AB /* UserNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1366,8 +1367,6 @@
 		EA8917721D18E4B10018773C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		EA8917731D18E4B10018773C /* UserAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAlbum.h; sourceTree = "<group>"; };
 		EA8917741D18E4B10018773C /* UserAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAlbum.m; sourceTree = "<group>"; };
-		EA8917781D18E4B10018773C /* jpush-ios-2.1.7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.7.a"; sourceTree = "<group>"; };
-		EA8917791D18E4B10018773C /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		EA89177B1D18E4B10018773C /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
 		EA89177C1D18E4B10018773C /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
 		EA89177D1D18E4B10018773C /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
@@ -1619,6 +1618,10 @@
 		EAE6B51D1D191D91000DE707 /* user_placeholder_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_placeholder_icon.png; sourceTree = "<group>"; };
 		EAE6B5241D19256B000DE707 /* HeInstructionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeInstructionView.h; sourceTree = "<group>"; };
 		EAE6B5251D19256B000DE707 /* HeInstructionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeInstructionView.m; sourceTree = "<group>"; };
+		EAFC136B1D9B700F005D00AB /* jpush-ios-2.1.9.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.9.a"; sourceTree = "<group>"; };
+		EAFC136C1D9B700F005D00AB /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		EAFC136F1D9B70C8005D00AB /* 猪美巴配送.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "猪美巴配送.entitlements"; sourceTree = "<group>"; };
+		EAFC137C1D9B728F005D00AB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1626,6 +1629,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFC137D1D9B728F005D00AB /* UserNotifications.framework in Frameworks */,
 				EA8912D11D18E4610018773C /* Contacts.framework in Frameworks */,
 				EA8912CF1D18E4590018773C /* SystemConfiguration.framework in Frameworks */,
 				EA8912CD1D18E4520018773C /* OpenGLES.framework in Frameworks */,
@@ -1652,7 +1656,6 @@
 				EA8912B51D18E3D50018773C /* QuartzCore.framework in Frameworks */,
 				EAD46F541D8076FA00196D46 /* BaiduMapAPI_Radar.framework in Frameworks */,
 				EAD46F531D8076FA00196D46 /* BaiduMapAPI_Map.framework in Frameworks */,
-				EA8918401D18E4B10018773C /* jpush-ios-2.1.7.a in Frameworks */,
 				EA8918781D18E4B20018773C /* UMMobClick.framework in Frameworks */,
 				EA8912B31D18E3CF0018773C /* libicucore.tbd in Frameworks */,
 				EA8912B11D18E3C10018773C /* libstdc++.tbd in Frameworks */,
@@ -1666,6 +1669,7 @@
 				EA8912A91D18E3A40018773C /* MessageUI.framework in Frameworks */,
 				EA8912A71D18E39C0018773C /* AddressBook.framework in Frameworks */,
 				EA8912A51D18E3960018773C /* MapKit.framework in Frameworks */,
+				EAFC136D1D9B700F005D00AB /* jpush-ios-2.1.9.a in Frameworks */,
 				EA8912A31D18E38D0018773C /* Accounts.framework in Frameworks */,
 				EA8912A11D18E3870018773C /* CoreData.framework in Frameworks */,
 				EA8918711D18E4B20018773C /* libWeiboSDK.a in Frameworks */,
@@ -1702,6 +1706,7 @@
 				EA89127A1D18E0430018773C /* kunyuanDeliverlyTests */,
 				EA8912851D18E0430018773C /* kunyuanDeliverlyUITests */,
 				EA89125F1D18E0430018773C /* Products */,
+				EAFC137B1D9B728F005D00AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1744,6 +1749,7 @@
 		EA8912611D18E0430018773C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EAFC136F1D9B70C8005D00AB /* 猪美巴配送.entitlements */,
 				EA8912951D18E0A10018773C /* appAPIDefine.h */,
 				EA8912961D18E0A10018773C /* kunyuangDefine.h */,
 				EA8912621D18E0430018773C /* main.m */,
@@ -3193,8 +3199,8 @@
 		EA8917751D18E4B10018773C /* ThirdPartySDK */ = {
 			isa = PBXGroup;
 			children = (
+				EAFC136A1D9B700F005D00AB /* JPushSDK */,
 				EAD46F461D8076FA00196D46 /* BaiduMap_SDK_v3.0 */,
-				EA8917761D18E4B10018773C /* JPush-iOS-SDK-2.1.7 */,
 				EA89177A1D18E4B10018773C /* libqrencode */,
 				EA89178B1D18E4B10018773C /* QiniuSDK */,
 				EA8917E01D18E4B10018773C /* ShareSDK3.3.0 */,
@@ -3202,23 +3208,6 @@
 				EA8918051D18E4B10018773C /* ZBarSDK */,
 			);
 			path = ThirdPartySDK;
-			sourceTree = "<group>";
-		};
-		EA8917761D18E4B10018773C /* JPush-iOS-SDK-2.1.7 */ = {
-			isa = PBXGroup;
-			children = (
-				EA8917771D18E4B10018773C /* lib */,
-			);
-			path = "JPush-iOS-SDK-2.1.7";
-			sourceTree = "<group>";
-		};
-		EA8917771D18E4B10018773C /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				EA8917781D18E4B10018773C /* jpush-ios-2.1.7.a */,
-				EA8917791D18E4B10018773C /* JPUSHService.h */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		EA89177A1D18E4B10018773C /* libqrencode */ = {
@@ -3822,6 +3811,23 @@
 				EAE6B5251D19256B000DE707 /* HeInstructionView.m */,
 			);
 			name = HeInstructionView;
+			sourceTree = "<group>";
+		};
+		EAFC136A1D9B700F005D00AB /* JPushSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC136B1D9B700F005D00AB /* jpush-ios-2.1.9.a */,
+				EAFC136C1D9B700F005D00AB /* JPUSHService.h */,
+			);
+			path = JPushSDK;
+			sourceTree = "<group>";
+		};
+		EAFC137B1D9B728F005D00AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC137C1D9B728F005D00AB /* UserNotifications.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -4611,6 +4617,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "kunyuanDeliverly/猪美巴配送.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer: jun zhou (ZM3AW8VQ6N)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jun zhou (ZM3AW8VQ6N)";
 				ENABLE_BITCODE = NO;
@@ -4635,6 +4642,7 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/SinaWeiboSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/JPushSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanDeliverly;
@@ -4647,6 +4655,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "kunyuanDeliverly/猪美巴配送.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
 				ENABLE_BITCODE = NO;
@@ -4671,6 +4680,7 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/SinaWeiboSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/JPushSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanDeliverly;
@@ -4767,6 +4777,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "kunyuanDeliverly/猪美巴配送.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
 				ENABLE_BITCODE = NO;
@@ -4791,6 +4802,7 @@
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/SinaWeiboSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/ZBarSDK",
+					"$(PROJECT_DIR)/kunyuanDeliverly/ThirdPartySDK/JPushSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanDeliverly;
